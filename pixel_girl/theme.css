@@ -1,1 +1,180 @@
 
+.sidebar,
+.header,
+.container__content,
+.bottom-panel {
+  background: transparent;
+}
+
+body {
+  color: #ffffffff;
+  image-rendering: pixelated;
+  font-family: "Press Start 2P", monospace;
+  letter-spacing: 1px;
+}
+
+
+#root {
+  background: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnVqNWw0OHJ6aTZpejdodGQ4bHlwMHZtZjQ3bTNybzkybnk4aGhyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SA2ryQeNGmJDpGSgKb/giphy.gif)
+    #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+  filter: contrast(1.1) saturate(1.3);
+}
+
+.sidebar__menu-item {
+  padding: 10px 16px;
+  font-size: 12px;
+  margin: 2px 8px;
+  border: 1px solid #8900c433;
+  border-radius: 4px;
+  transition: 0.15s;
+}
+
+.sidebar__menu-item i {
+  margin-right: 10px;
+  image-rendering: pixelated;
+}
+
+
+.sidebar__menu-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateX(1px) scale(1.05);
+  box-shadow: 0 0 6px #8A00C4;
+}
+
+.text-field-container__text-field--dark,
+.text-field-container__text-field--primary,
+.header__search,
+.game-item,
+.settings__content,
+.catalogue__filters-container,
+.friends-box__box,
+.user-stats__box,
+.recent-games__box,
+.sidebar {
+  border-radius: 4px; 
+  border: 1px solid #8A00C4;
+  background-color: #0000005b !important;
+  backdrop-filter: blur(3px);
+  image-rendering: pixelated;
+}
+
+.game-details__container {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.game-details__description-container {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  min-width: 0;
+  background: linear-gradient(0deg, #121212c2 50%, #0d0d0d69 100%);
+  padding: 10px;
+  gap: 8px;
+  border: 1px solid #8A00C4;
+}
+
+.game-details__description-content {
+  flex: 1;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .select-field__option {
+  background-color: #8A00C4;
+  border-right: 4px solid;
+  border-color: transparent;
+  border-radius: 8px;
+  width: fit-content;
+  height: 100%;
+  outline: none;
+  color: #dadbe1;
+  cursor: default;
+  font-family: inherit;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  padding: 8px;
+}
+
+
+
+
+.button {
+  padding: 8px 16px;
+  background-color: #8A00C4;
+  border-radius: 1px;
+  border: solid 1px #5923e150;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+   color: #ffffff; /* Adiciona cor branca para todos os botões */
+}
+
+button:active {
+  opacity: 0.7;
+}
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button--primary:hover {
+  background-color: #8900c4e5;
+}
+.button--primary:disabled {
+  background-color: #fdfdffff;
+}
+.button--outline {
+  background-color: transparent;
+  border: solid 1px rgba(187, 173, 173, 0.08);
+  color: #f0f1f7;
+}
+.button--outline:hover {
+  background-color: rgba(255, 255, 255, 0.93);
+}
+.button--outline:disabled {
+  background-color: transparent;
+}
+.button--dark {
+  background-color: #8900c4e5 ; /**/
+  color: #f0f1f7;
+}
+.button--danger {
+  border-color: transparent;
+  background-color: #ff0101ff;
+  color: #f0f1f7;
+}
+
+.container__content .button--outline {
+  border: 1px solid #8A00C4;
+  background-color: #5923e150;
+  font-family: "Press Start 2P", monospace;
+  padding: 10px 10px;
+  border-radius: 1px;
+  transition: 0.15s;
+}
+
+
+.settings-download-sources__item,
+.download-group__item,
+.game-item {
+  border: 1px solid #D796F2;
+  background-color: #0000008c  !important;
+  image-rendering: pixelated;
+}
+
+* {
+  image-rendering: pixelated;
+  text-shadow: 0 0 2px #000;
+}
+
