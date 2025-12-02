@@ -1,1 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
 
+.sidebar,
+.header,
+.container__content{
+  background: #00000063;
+}
+
+.bottom-panel{
+  
+  background-color: rgba(0, 0, 0, 0.57) !important;
+  backdrop-filter: blur(8px);
+
+}
+
+body {
+  color: #9e9e9e;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+#root {
+  background: url(https://github.com/srasked2020/themas_/blob/main/vagabond/screenshot.jpg?raw=true)
+    #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-field-container__text-field--dark,
+.text-field-container__text-field--primary,
+.header__search,
+.game-item,
+.settings__content,
+.catalogue__filters-container,
+.friends-box__box,
+.user-stats__box,
+.recent-games__box {
+  background-color: rgba(0, 0, 0, 0.64) !important;
+  backdrop-filter: blur(8px);
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.82) !important;
+  backdrop-filter: blur(2px);
+}
+
+
+
+.game-details__container {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.game-details__description-container {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  min-width: 0;
+  background: linear-gradient(0deg, #1212129d 50%, #0d0d0d2f 100%);
+  padding: 10px;
+  gap: 8px;
+  border: 1px solid #ffffff25;
+}
+
+.game-details__description-content {
+  flex: 1;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__content .button--outline {
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.settings-download-sources__item,
+.download-group__item,
+.game-item {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
