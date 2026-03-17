@@ -15,7 +15,7 @@ body {
 }
 
 #root {
-  background: url(https://github.com/srasked2020/thmes--hydra-/blob/main/wallpaper%20tests/badfon-aska-lengli-soryu-anime.jpg?raw=true) #000;
+  background: url('https://github.com/srasked2020/themas_/blob/main/Asuka%20langley/Asuka.jpg?raw=true') #000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,6 +71,7 @@ body {
 .header__search,
 .game-item,
 .settings__content,
+.settings__sidebar,
 .catalogue__filters-container,
 .friends-box__box,
 .user-stats__box,
@@ -78,9 +79,8 @@ body {
 .sidebar {
   border-radius: 4px; 
   border: 1px solid #ffffff49;
-  background-color: #08080860 !important;
+  background-color: #0808083a !important;
   backdrop-filter: blur(3px);
-  image-rendering: pixelated;
 }
 
 
@@ -129,13 +129,12 @@ body {
 .game-item {
   border: 1px solid #ffffff49;
   background-color: rgba(0, 0, 0, 0.2) !important;
-  image-rendering: pixelated;
+
 }
 
 * {
   image-rendering: pixelated;
   text-shadow: 0 0 2px #000;
 }
-
 
 
