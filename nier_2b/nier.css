@@ -1,1 +1,112 @@
+.sidebar,
+.header,
+.container__content,
+.bottom-panel {
+  background: transparent;
+}
+
+body {
+  color: #ffffffff;
+}
+
+#root {
+  background: url(https://github.com/srasked2020/themas_/blob/main/nier_2b/Captura%20de%20tela%202025-08-31%20145858.png?raw=true)
+    #00000009;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.sidebar__menu-item {
+  padding: 12px 20px;
+  font-size: 15px;
+  margin: 1px 12px;
+}
+
+
+.sidebar__menu-item i {
+  margin-right: 12px;
+}
+
+.sidebar__menu-item:hover {
+  background: rgba(96, 95, 95, 0.605); 
+  transform: translateX(6px); 
+}
+
+
+.sidebar__menu-item:hover i {
+  transform: scale(1.15);
+}
+
+.sidebar__menu-item:hover i {
+  transform: scale(1.15);
+}
+
+.text-field-container__text-field--dark,
+.text-field-container__text-field--primary,
+.header__search,
+.game-item,
+.settings__content,
+.catalogue__filters-container,
+.friends-box__box,
+.user-stats__box,
+.recent-games__box,
+.settings__sidebar,
+.sidebar {
+   border-radius: 14px; 
+  border: 1px solid #ffffff71;
+  background-color: #00000031  !important;
+  backdrop-filter: blur(8px);
+}
+
+.game-details__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.game-details__description-container {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  min-width: 0;
+  background: linear-gradient(0deg, #12121233 50%, #0d0d0d7e 100%);
+  padding: 12px;
+  gap: 12px;
+}
+.game-details__description-content {
+  width: 100%;
+  min-height: 100%;
+  min-width: 0;
+  flex: 1;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container__content .button--outline {
+  border: 1px solid #ffffffad;
+  backdrop-filter: blur(8px);
+   border-radius: 12px; 
+  background-color: rgba(0, 0, 0, 0.47);
+}
+
+.container__content .button--outline:hover {
+  background: rgba(3, 3, 3, 0.1);
+  color: #fff;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.75);
+}
+
+.settings-download-sources__item,
+.download-group__item,
+.game-item {
+   border: 1px solid #ffffff75;
+  background-color: rgba(0, 0, 0, 0.49) !important;
+}
+
 
